@@ -1,64 +1,56 @@
-/* Global Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F8F8F8;
 }
 
-/* Header Styles */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+  height: 80px;
+  background-color: #FFFFFF;
 }
 
-header a {
-    color: #fff;
-    text-decoration: none;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-nav li:last-child {
-    margin-right: 0;
-}
-
-/* Main Content Styles */
 main {
-    padding: 50px 0;
+  margin: 30px auto;
+  max-width: 1200px;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 20px;
+section {
+  margin-bottom: 30px;
 }
 
-h1 {
-    font-size: 36px;
-    text-align: center;
-    margin-bottom: 20px;
+.featured {
+  background-color: #EFEFEF;
+  height: 400px;
 }
 
-p {
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: justify;
+.recent {
+  background-color: #FFFFFF;
+  height: 400px;
 }
 
-/* Footer Styles */
+.top-rated {
+  background-color: #EFEFEF;
+  height: 400px;
+}
+
+.search {
+  background-color: #FFFFFF;
+  height: 100px;
+}
+
+.user-reviews {
+  background-color: #EFEFEF;
+  height: 300px;
+}
+
+.chapter-view {
+  background-color: #FFFFFF;
+  height: 800px;
+}
+
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+  height: 50px;
+  background-color: #333333;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 20px;
 }
