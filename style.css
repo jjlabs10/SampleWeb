@@ -1,56 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #F8F8F8;
+  margin: 0;
 }
 
-header {
-  height: 80px;
-  background-color: #FFFFFF;
-}
-
-main {
-  margin: 30px auto;
-  max-width: 1200px;
-}
-
-section {
-  margin-bottom: 30px;
-}
-
-.featured {
-  background-color: #EFEFEF;
-  height: 400px;
-}
-
-.recent {
-  background-color: #FFFFFF;
-  height: 400px;
-}
-
-.top-rated {
-  background-color: #EFEFEF;
-  height: 400px;
-}
-
-.search {
-  background-color: #FFFFFF;
-  height: 100px;
-}
-
-.user-reviews {
-  background-color: #EFEFEF;
-  height: 300px;
-}
-
-.chapter-view {
-  background-color: #FFFFFF;
-  height: 800px;
-}
-
-footer {
-  height: 50px;
-  background-color: #333333;
-  color: #FFFFFF;
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
   text-align: center;
-  padding-top: 20px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
